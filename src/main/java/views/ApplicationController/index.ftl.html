@@ -1,0 +1,10 @@
+<#import "../layout/defaultLayout.ftl.html" as layout> 
+<@layout.myLayout "Home page">    
+
+<h2>${var.data}</h2>
+<h2>${var.name}</h2>
+<h1>${i18n("hello.world")}</h1>
+<p>${i18n("hello.world.json")}</p>
+<a href="/app/home/hello_world.json">Hello World Json</a>
+
+</@layout.myLayout>
